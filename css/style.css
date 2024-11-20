@@ -1,0 +1,122 @@
+body{
+  font-family: "Zen Maru Gothic", serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 100%;
+  justify-items: center;
+}
+
+.top{
+    text-align: center;
+}
+
+.top h1{
+    font-family: "Hachi Maru Pop", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    z-index: 100;
+}
+
+.top .dog1{
+    width: 200px;
+    position: absolute;
+    top: 57px;
+    left:70%;
+    z-index: 0;
+}
+
+.top .dog2{
+    width: 200px;
+    position: absolute;
+    top:500px;
+    left:5%;
+    z-index: 0;
+}
+
+.main{
+    justify-items: center;
+    background-color: rgb(242 201 128);
+    padding: 10px;
+    width: 80%;
+}
+
+.main div{
+    position: relative;
+    z-index: 100;
+}
+
+.main p{
+    margin-bottom: 0;
+}
+
+.main .title{
+    width: 300px;
+}
+
+.main .weight{
+    width: 100px;
+}
+
+.main .comment{
+    width: 300px;
+    height: 100px;
+}
+
+.preview{
+    margin-top: 10px;
+}
+
+.preview-img{
+    width: 200px;
+}
+
+.main .submit-wrapper{
+    text-align: center;
+    margin-top: 70px;
+    position: relative;
+}
+
+.main .submit{
+    border-radius: 50%;
+    height: 80px;
+    background-color: #686868;
+    border: none;
+    color: white;
+}
+
+.main .dog-1,.dog-4{
+    background-color: rgb(255, 123, 0);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: none;
+}
+.main .dog-2,.dog-3{
+    background-color: rgb(255, 123, 0);
+    width: 35px;
+    height: 40px;
+    border-radius: 50%;
+    display: none;
+}
+
+.dog-1{
+    position: absolute;
+    top: -30px;
+    left: 82px;
+}
+.dog-2{
+    position: absolute;
+    top: -56px;
+    left: 116px;
+}
+.dog-3{
+    position: absolute;
+    top: -57px;
+    left: 155px;
+}
+.dog-4{
+    position: absolute;
+    top: -32px;
+    left: 189px;
+}
