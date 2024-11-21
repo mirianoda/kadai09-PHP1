@@ -21,5 +21,7 @@ https://yellowseal83.sakura.ne.jp/kadai/post.php
 - [感想]
   初めてのことばかりで、概念の理解に時間がかかってしまいましたが、コード自体はかなりシンプルにかけたので、これがPHPか！と思いました。
 - [参考記事]
+- 画像のアップロードに関しては、以下のサイトを参考に実装しました！
   - 1.JavaScript　FileAPIについて学ぶ [https://qiita.com/wada1355/items/8028d87d8d2bc6c00e69]
   - 2. 【初心者向け】PHPでのファイルのアップロード方法[https://www.sejuku.net/blog/30351]
+    3. PHPでmove_uploaded_file関数を使う方法【初心者向け】[https://magazine.techacademy.jp/magazine/18804]
